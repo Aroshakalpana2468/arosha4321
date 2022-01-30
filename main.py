@@ -23,7 +23,7 @@ def send_message(message):
 
 @bot.message_handler(commands=["id"])
 def send_message(message):
-  bot.reply_to(message.chat.id)
+  bot.send_message(message,"sorry danne na")
 
 bot.polling()
 
